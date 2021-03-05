@@ -1,0 +1,264 @@
+/* reset */
+footer {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* base */
+html {
+
+}
+body{
+
+}
+h1{
+    position: absolute;
+top: 30px;
+color: #ff9d01;
+}
+h2{
+    color: #ff9d01; 
+    
+}
+h3{
+    color: #ff9d01 !important;
+}
+h6{
+    position: absolute;
+    top: 190px;
+}
+p{
+    
+}
+a{
+    color:#ffa200;
+    
+}
+.image{
+    position: relative;
+}
+.white{
+    color:white;
+}
+
+
+
+/*  button */
+.btn-yellow {
+    background-color: #ffa200 !important;
+    background: linear-gradient(to right, #ffa200, #ffbe01);
+    border-radius: 40px;
+    margin-top: 40px;
+    margin-right: 5px;
+}
+.btn-brun {
+    background-color: #fff7df;
+    color: #ffa200 !important;
+}
+.btn-circle.btn-xl{
+    background-color: #ffa200 !important;
+    background: linear-gradient(to right, #ffa200, #ffbe01);
+    border-radius: 35px;
+    margin-top: 40px;
+    margin-right: 5px;
+    width: 50px;
+    height: 50px;
+}
+.btn-circle.btn-sm{
+    background-color:white;
+    color:black;
+    border-radius: 35px;
+    margin-top: 40px;
+    margin-right: 5px;
+    width: 50px;
+    height: 50px;
+}
+.btn-default{
+    background-color: #ffa200 !important;
+    background: linear-gradient(to right, #ffa200, #ffbe01);
+    border-radius: 35px;
+    margin-top: 40px;
+    margin-right: 5px;
+    width: 50px;
+    height: 50px;
+}
+.fa {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-facebook{
+    padding: 10px;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 5px 2px;
+  }
+  .fa-twitter{
+    padding: 10px;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 5px 2px;
+  }
+  .fa-youtube{
+    padding: 10px;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 5px 2px;
+    background: #bb0000;
+  color: white;
+  }
+  .send{
+    background-color: #ff9d01!important;
+    border-radius: 35px;
+    margin-top: 40px;
+    margin-right: 5px;
+    color: white;
+    background: linear-gradient(to right, #ffa200, #ffbe01);
+    
+  }
+
+
+
+
+
+
+
+/* content */
+#content {
+    background-color: #fff7df;
+    max-height: 950px;
+    height: 950px;
+}
+
+/* header */
+.logo {
+    margin-right: 100px;
+}
+.nav-h {
+    line-height: 100px;
+}
+.logo, .nav-h {
+    height: 150px;
+}
+.nav-h li {
+    width: auto;
+}
+.nav-h li > a {
+    font-weight: bold;
+
+}
+.nav-h li a:hover, .nav-h li a:active {
+    font-weight: bold;
+    text-decoration: underline solid #ffa200 2px;
+    text-underline-offset: 1em;
+    color: #262626;
+}
+.nav-h li a.btn:hover {
+    text-decoration: none;
+}
+
+
+
+
+
+/* slider */
+.slider {
+    background: linear-gradient(to right, #ff9d01, #ffb400);
+    height: 660px;
+    margin-bottom: 5px;
+}
+.slider h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+.slider h2:first-child {
+    margin-top: 120px;
+}
+.slider p {
+    font-size: 1.1em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.slider button {
+    margin-top: 5px;
+    padding: 20px;
+    border-radius: 50px;
+    width: 200px;
+}
+.slider h2, .slider p, .slider button {
+    color: #fff7df;
+    margin-left: 90px;
+}
+.slider .btn-slider {
+    margin-left: 90px;
+    margin-top: 50px;
+}
+
+
+/* content */
+.content {
+    background-color: #fff7df;
+    background-size: 300px;
+    
+}
+img{
+   width:auto;
+   height:auto;
+   vertical-align: middle;
+}
+.iconeBT {
+    display: flex;
+    flex-basis: auto;
+    flex-wrap: nowrap;
+    margin-top: 150px;
+    margin-bottom: 120px;
+}
+.iconeBT img {
+    width: 148px;
+    height: 129px;
+}
+.iconeBT img, .iconeBT h3, .iconeBT p {
+    margin-left: 110px;
+}
+.iconeBT p {
+    
+    color: #000;
+}
+.article{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.form-control{
+    border-radius: 50px;
+    
+}
+
+
+
+/* footer */
+footer {
+    background-color: #262626;
+    width: 100%;
+    height: 250px;
+    color: #fff;
+}
+
+footer div.logoFooter {
+    background-image: url("image/logo_fond_noir.png");
+    background-repeat: no-repeat;
+    height: 75px;
+    width: 207px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
