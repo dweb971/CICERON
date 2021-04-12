@@ -1,0 +1,61 @@
+.marge-droite{
+    margin-left: 320px;
+}
+
+.droite{
+    text-align: right;
+}
+
+.bg-image{
+    background-image: url(decoupes/top/droite/background.png);
+}
+
+.noir{
+    background-color: #343033;
+}
+
+.blanc{
+    color: white;
+}
+.centre{
+    text-align: center;
+}
+
+.bouton-noir{
+    background-color: #2b2a2c;
+    border-radius: 20px;
+}
+
+.contour-noir{
+    border: 2px solid #2b2a2c;
+    border-radius: 20px;
+}
+
+.gris-clair{
+    color: lightgray;
+}
+
+.gras{
+    font-weight: bold;
+}
+
+.gris{
+    color: gray;
+}
+
+.marge-profil{
+    margin-left: 5px;
+}
+
+.marge-presentation{
+    margin-top: 100px;
+}
+
+.marge-haut-bas{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.agrandissement{
+    font-size: 70px;
+}
