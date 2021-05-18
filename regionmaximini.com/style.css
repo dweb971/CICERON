@@ -1,0 +1,12 @@
+h1{
+    text-align: center  ;
+    font-size: xx-large;
+}
+#container{
+    margin-top: 150px;
+}
+.text-right{
+position: relative;
+left:700px;
+
+}
