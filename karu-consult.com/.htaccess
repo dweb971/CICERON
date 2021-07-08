@@ -1,0 +1,15 @@
+# urlrewrite
+RewriteEngine on
+
+# redirection https
+RewriteRule ^rendezvous\.html rendezvous.php
+RewriteRule ^sans-rendezvous\.html sans-rendezvous.php
+RewriteRule ^index\.html$ index.php
+rewriteCond %{HTTPS}!=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
+
+# n'importe quelle page html 
+# stockee dans variable serveur $1 
+# et converti en php
+
+# RewriteRule ([a-z\/-]+)\.html$ $1.php

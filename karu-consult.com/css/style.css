@@ -14,7 +14,9 @@ a {
 ul li {
     list-style: none;
 }
-
+.errorDH {
+    display: none;
+}
 
 
 
@@ -29,7 +31,7 @@ header div:first-child {
 
 header div:first-child > img {
  width: 250px;   
- height: 100px;
+ height: 150px;
  display: block;
 }
 header div:last-child > img {
@@ -159,7 +161,60 @@ margin-right: 10px;
     font-weight: inherit;
 }
 
+/* FORMULAIRE */
+input[type="text"],select, input[type="email"], input[type="tel"] {
+    margin-bottom: 10px;
+}
 
+/*CALENDRIER */
+table.table {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+table.table thead {
+    background-color: #6790A1;
+    color: white;
+}
+table.table tbody tr td:hover {
+    background-color: #fcbbcf;
+    
+}
+.date_jour {
+    background-color: gray;
+    font-weight: bold;
+}
+table.table tbody tr th {
+    width: 88px;
+}
+.error {
+    font-size: .8em;
+    font-weight: bold;
+    color: red;
+}
+.errorBG {
+    background:#fcbbcf;
+    border-color: red;
+
+}
+.off {
+    display: none;
+}
+.on {
+    display: block;
+}
+.selDate{
+    background-color: deeppink;
+}
+#agendaForm{
+    margin-bottom: 20px;
+}
+.agendaForm{
+    border: solid 1px color, red;
+}
+#H{
+    margin-bottom: 30px;
+}
 
 
 
